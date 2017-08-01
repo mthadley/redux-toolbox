@@ -40,7 +40,7 @@ describe(
         const TEST_ACTION = 'TEST_ACTION';
 
         const mockHandler = jest.fn(
-          (state, action) => {
+          () => {
             return {
               result: 2
             };
