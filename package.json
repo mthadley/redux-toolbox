@@ -13,7 +13,7 @@
     ]
   },
   "scripts": {
-    "compile": "babel src --out-dir lib",
+    "compile": "babel src --out-dir lib --ignore __tests__",
     "lint": "eslint \"src/**/*.js\"",
     "test": "jest",
     "prepublish": "npm run compile"
