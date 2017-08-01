@@ -9,6 +9,6 @@ projects.
 $ npm install redux-toolbox
 ```
 
-# LICENSE
+## LICENSE
 
 MIT
