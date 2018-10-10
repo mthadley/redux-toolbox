@@ -15,9 +15,9 @@ Then import the desired utility:
 import {createReducer} from 'redux-toolbox';
 
 export default createReducer(0, {
-  increment: (state) => state + 1
+  increment: (state) => state + 1,
   decrement: (state) => state - 1
-})
+});
 ```
 
 ### API
